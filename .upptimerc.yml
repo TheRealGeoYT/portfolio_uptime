@@ -6,6 +6,10 @@ sites:
   - name: Portfolio
     url: https://therealgeo.de
 
+# Discord Notifications mit Rollen-Ping
+notifications:
+  - type: discord
+    prefix: "<@&1550892790387318794> 🚨 **[STATUS-ALERT]**"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
